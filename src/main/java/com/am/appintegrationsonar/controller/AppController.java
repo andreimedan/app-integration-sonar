@@ -8,6 +8,7 @@ public class AppController {
 
     @GetMapping("/status")
     public String getStatus() {
+        System.out.println("ready");
         return "UP!";
     }
 }
