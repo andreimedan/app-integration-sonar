@@ -16,6 +16,7 @@
 	<properties>
 		<java.version>11</java.version>
 		<sonar.projectKey>andreimedan_app-integration-sonar</sonar.projectKey>
+		<sonar.coverage.jacoco.xmlReportPaths>"./target/jacoco-report/jacoco.xml"</sonar.coverage.jacoco.xmlReportPaths>
 	</properties>
 	<dependencies>
 		<dependency>
